@@ -1,0 +1,131 @@
+:root {
+  --dark: #2e2f42;
+  --text: #434455;
+  --white: #ffffff;
+  --accent: #4d5ae5;
+  --accent-active: #404bbf;
+  --light: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark);
+}
+
+p,
+a {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.header {
+  background-color: var(--white);
+}
+
+.nav-logo {
+  color: var(--dark);
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.nav-logo > span {
+  color: var(--accent);
+}
+
+.nav-logo:hover > span,
+.nav-logo:active > span {
+  color: var(--accent-active);
+}
+
+.nav-link {
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: var(--accent-active);
+}
+
+.nav-link.studio:active {
+  border-bottom: 4px solid var(--accent-active);
+  border-radius: 2px;
+}
+
+.contact {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contact:hover,
+.contact:active,
+.contact:focus {
+  color: var(--accent-active);
+}
+
+.hero {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.hero-heading {
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.order-btn {
+  background-color: var(--accent);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: none;
+  cursor: pointer;
+}
+
+.about > h2 {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.footer {
+  background-color: var(--dark);
+}
+
+.footer-logo {
+  color: var(--light);
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.footer-logo > span {
+  color: var(--accent);
+}
+
+.footer-text {
+  color: var(--light);
+}
