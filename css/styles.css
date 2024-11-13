@@ -48,6 +48,7 @@ body {
   color: var(--dark);
   text-decoration: none;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -64,6 +65,7 @@ body {
 .contact {
   color: var(--text);
   text-decoration: none;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -110,6 +112,7 @@ body {
 }
 
 .about-descr {
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -153,6 +156,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+.portfolio-card-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .footer {
   background-color: var(--dark);
 }
@@ -174,4 +183,7 @@ body {
 
 .footer-text {
   color: var(--light);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
