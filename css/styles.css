@@ -13,6 +13,10 @@ body {
   color: var(--text);
 }
 
+ul {
+  list-style: none;
+}
+
 .heading {
   color: var(--dark);
   font-size: 36px;
